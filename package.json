@@ -1,0 +1,32 @@
+{
+  "name": "countries",
+  "version": "1.0.0",
+  "description": "SDET JS Test",
+  "main": "conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "jasmine": "^3.5.0",
+    "mocha": "^8.0.1",
+    "protractor": "^5.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamolNizomov/countriesJS.git"
+  },
+  "keywords": [
+    "KN"
+  ],
+  "author": "kamol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamolNizomov/countriesJS/issues"
+  },
+  "homepage": "https://github.com/KamolNizomov/countriesJS#readme"
+}
