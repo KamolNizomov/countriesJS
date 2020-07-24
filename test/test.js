@@ -1,9 +1,12 @@
 
 var Request = require("request");
+const { TestObject } = require("protractor/built/driverProviders");
 
 
 describe('API Test', () => {
 
+
+    //Global Variables
     var baseUrl = "https://restcountries.eu";
     var endpoint;
     var obj;
@@ -11,7 +14,7 @@ describe('API Test', () => {
     it('get by name ', () => {
 
         endpoint = '/rest/v2/name/france';
-
+      
         Request.get({
             "headers": { "content-type": "application/json" },
             "url": baseUrl + endpoint
